@@ -27,6 +27,13 @@ npm install
 ```
 npm start
 ```
+## Docker 🐳
+The project is dockerized for easy deployment and scalability. To run the app using Docker, use the following commands:
+
+```
+docker build -t skylink .
+docker run -p 3000:3000 skylink
+```
 
 ## Usage🚀🎈
 
