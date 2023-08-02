@@ -1,11 +1,13 @@
-# Realtime Chat Application
+# Simple Video Chat WebRTC
 
-![Video Chat](https://i.ibb.co/7WZRLD1/122.jpg)
+### By using [simple-peer](https://github.com/feross/simple-peer), this web app connects video chat between two clients.
 
-## Introduction
-This is a code repository for the corresponding video tutorial. 
+## How To Use
 
-In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.
+Install dependencies - npm install  
+Start - npm start  
 
-Setup:
-- run ```npm i && npm start``` for both client and server side to start the development server
+For development run watchify - npm run watch  
+
+Open localhost in two browser tabs for testing. On the same machine, don't open tabs in two different browsers as it will fail to provide camera access to 2 different applications(browsers) simultaneously.   
+Deploy it and open url in two separate devices for real-world usage.
